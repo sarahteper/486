@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+
+body{
+	background-image: url(../images/white.jpg);
+}
+
 h1{
 	font-family: 'Antonio', sans-serif;
 	color: red;
@@ -11,6 +16,50 @@ h1{
 	font-size: 70px;
 	background: black;
 	letter-spacing: 0px
+
+}
+
+h2{
+	color: black;
+	font-family: Futura;
+	text-align: center;
+	font-size: 50px;
+	top: 30px;
+}
+
+.corpse {
+	display: flex;
+	position: absolute;
+	height: 70%;
+	top: 200px;
+	left: 400px;
+}
+
+.paragraph{
+	color: black;
+	font-family: 'futura', sans-serif;
+	font-size: 48px;
+	position: absolute;
+	left: 1000px;
+
+}
+
+.paragraph2 {
+	color: black;
+	font-family: 'futura', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	left: 930px;
+}
+
+.project{
+	display: flex;
+	position: absolute;
+	height: 90%;
+	top: 170px;
+	left: 300px;
+
+
 
 }
 
